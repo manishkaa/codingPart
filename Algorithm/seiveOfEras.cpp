@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-//PRIME SIEVE & OPTIMISATIONS
+//PRIME SIEVE of Eras & OPTIMISATIONS
 
 
 void primeSieve(int *p,int n){
