@@ -8,11 +8,11 @@ def BinarySearch(ar,target):
 def BinarySearchHelper(ar,target,l,r):
     if l>r:
         return -1
-    mid = (l+r)//2
-    curr = ar[mid]
+    Mid = (l+r)//2
+    curr = ar[Mid]
     if curr == target:
-        return mid
+        return Mid
     elif curr>target:
-        return BinarySearchHelper(arr,target,mid+1,r)
+        return BinarySearchHelper(arr,target,Mid+1,r)
     else:
-        return BinarySearchHelper(ar,targer,l,mid-1)
+        return BinarySearchHelper(ar,targer,l,Mid-1)
