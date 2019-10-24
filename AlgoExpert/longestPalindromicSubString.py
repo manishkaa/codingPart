@@ -1,5 +1,5 @@
 def longestPalindromicSS(str):
-    currentLongest = [0,1] #starting and ending index of current lngest 1(Exclusive)
+    currentLongest = [0,1] #starting and ending index of current longest 1(Exclusive)
     for i in range(1,len(str)):
         odd =  getLongestPalindrom(str,i-1,i+1)
         even =  getLongestPalindrom(str,i-1,i)
